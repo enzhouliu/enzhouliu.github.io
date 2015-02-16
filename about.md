@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a Developer currently living in New York. I was bron in China and get my master degree in computer science from NYU.
 
-### More Information
+After graduate, I have worked Bank of American Merrill Lynch and JP Morgan Asset Management until now.
 
-A place to include any other types of information that you'd like to include about yourself. 
+I am fascinated with basketball, a big NBA fan, Kobe Bryant is my favorite player for more than 15 years.
+I personally play basketball as well as a forward. Besides basketball, I also play lots of sports, including ski, snowboard, ping pang, tenis, swimming, running, volleyball, badminton and etc. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[enzhouliu@gmail.com](mailto:enzhouliu@gmail.com)
