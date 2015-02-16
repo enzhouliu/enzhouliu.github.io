@@ -29,6 +29,9 @@ just follow this steps on
 5. Add your own user variables and start edit your post.
 6. Submit && push your code and check them out on github
 
-One more thing, there is a way to add or change post files directly to github through browser is: [Prose](http://prose.io/), it is a content editor for github, fairly easy to use.
+Two more things:
+1) [Prose](http://prose.io/) is a content editor for github, allows you to change files on github directly through browser.
+2) [Komodo Edit](http://komodoide.com/komodo-edit/) is a good IDE for static web pages.
+
 
 I did this quick without going into too much detail, please let me know if i say anything wrong, thanks!
