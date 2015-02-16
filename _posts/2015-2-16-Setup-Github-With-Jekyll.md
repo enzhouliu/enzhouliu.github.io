@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Setup Github With Jekyll
+published: true
 ---
 
 Today, I started my first tech blog here. The reason for starting it is that I found I have sloved many problems during work and side-projects.
@@ -27,5 +28,7 @@ just follow this steps on
 {% endhighlight %}
 5. Add your own user variables and start edit your post.
 6. Submit && push your code and check them out on github
+
+One more thing, there is a way to add or change post files directly to github through browser is: [Prose](http://prose.io/), it is a content editor for github, fairly easy to use.
 
 I did this quick without going into too much detail, please let me know if i say anything wrong, thanks!
