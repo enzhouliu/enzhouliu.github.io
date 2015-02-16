@@ -17,17 +17,11 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble: 
   email: enzhou.important@gmail.com
-  facebook: https://www.facebook.com/enzhou.liu
-  flickr: 
-  github: https://github.com/enzhouliu
-  instagram: 
-  linkedin: https://www.linkedin.com/profile/view?id=63765651
-  pinterest: 
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  facebook: enzhou.liu
+  github: enzhouliu
+  linkedin: enzhouliu
+  stackoverflow: users/4225557/enzhou-liu
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
