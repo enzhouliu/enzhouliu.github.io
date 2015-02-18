@@ -15,17 +15,17 @@ The Css based on Web underlying concept of trust know as the [same origin policy
 
 For instance, if I dont have any permission to view information from a table but can insert into it. And I insert some thing like:
 
-<% highlight ruby linenos %>
+{% highlight ruby linenos %}
 blablabla
 <script>
 	send all information on the page to hacker server ip:port
 </script>
 blablabla
-<% end highlight %>
+{% endhighlight %}
 
 When this data get displayed on the priviledged user's browser.
 
-<% ruby highlight linenos %>
+{% highlight ruby linenos %}
 <table>
 	<tr>
 		<td>
@@ -37,7 +37,7 @@ When this data get displayed on the priviledged user's browser.
 		</td>
 	</tr>
 </table>
-<% end highlight %>
+{% endhighlight %}
 
 The user will see regular data but the script will run when the page loaded and send the information over to hacker's server
 
