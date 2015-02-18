@@ -13,7 +13,9 @@ The Css based on Web underlying concept of trust know as the [same origin policy
 
 For instance, if I dont have any permission to view information from a table but can insert into it. And I insert some thing like:
 
-<% ruby highlight linenos %>
+<% highlight layout: post
+title: Setup Github With Jekyll
+published: true linenos %>
 blablabla
 <script>
 	send all information on the page to hacker server ip:port
