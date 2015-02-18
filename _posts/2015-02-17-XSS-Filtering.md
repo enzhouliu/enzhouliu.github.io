@@ -11,7 +11,7 @@ I looked at the code, the filter basically try to decode the http request using 
 
 Then I looked Xss-[Cross Site scripting](http://en.wikipedia.org/wiki/Cross-site_scripting). The basic idea is that the attacker can embed java script to the content of the request body or parameter. If there is not a Xss Filter, the server may accept the script as a content. The script may be run in another user's browser sending information to somewhere. Or by reflection, providing a malicious site link, if the user click will lead to execution of injected script. So basically, Xss attach is kind of code injection.
 
-The Css based on Web underlying concept of trust know as the [same origin policy](http://en.wikipedia.org/wiki/Same-origin_policy). So if the a injected script get to run on a session with privilege, then it can obtain the information as having that privilege. So information can be get by hackers without privilege.
+The Xss attack based on Web underlying concept of trust know as the [same origin policy](http://en.wikipedia.org/wiki/Same-origin_policy). So if the a injected script get to run on a session with privilege, then it can obtain the information as having that privilege. So information can be get by hackers without privilege.
 
 For instance, if I dont have any permission to view information from a table but can insert into it. And I insert some thing like:
 
