@@ -22,6 +22,7 @@ blablabla
 <% end highlight %>
 
 When this data get displayed on the priviledged user's browser.
+
 <% ruby highlight linenos %>
 <table>
 	<tr>
@@ -35,8 +36,8 @@ When this data get displayed on the priviledged user's browser.
 	</tr>
 </table>
 <% end highlight %>
-The user will see regular data but the script will run when the page loaded and send the information over to hacker's server
 
+The user will see regular data but the script will run when the page loaded and send the information over to hacker's server
 
 The the server may save this as a data content, and when this information displayed for priviledge user, the script section will send out all informations I should not be able to see to my hacker server.
 
