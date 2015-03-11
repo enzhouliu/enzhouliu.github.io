@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 My current project uses both Java and python, Java for the RESTful service side and the python used for ETL process. When we do test, we intend to do test in both side, so we decided to put all the test in python side, since python is easier for inter-language operation. And we in fact using jython for python part.
