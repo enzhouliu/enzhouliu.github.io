@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Two hints of Oracle:
@@ -17,4 +17,3 @@ The solution is reduce the degree of parallel by using hint /*+ PARALLEL (4)*/, 
 
 
 Another hint I want to memtion is /*+ APPEND*/. This hint will indicate Oracle to use <b>direct path insert</b>, which means insert the data into the files inside of oracle buffer cache. According to Oracle, this way is using paralell and faster than normal insert. But this hint has its limitations:  1. the insert must be bulk insert which is INSERT SELECT statment. 2. In one transaction, you can not query the table you insert using this hit, a commit/rollback is required.
-
